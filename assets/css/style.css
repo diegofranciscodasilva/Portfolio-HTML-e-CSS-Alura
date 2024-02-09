@@ -165,3 +165,9 @@ body {
         width: auto;
     }
 }
+
+@media (max-width: 480px) {
+    .cabecalho__menu {
+        flex-direction: column;        
+    }
+}
